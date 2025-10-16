@@ -29,6 +29,19 @@ Simulation results demonstrate improved accuracy and faster convergence compared
 
 ---
 
+## ⚙️ MATLAB Implementation
+The MATLAB/Simulink files included in this repository demonstrate the **SOC equalization and Bayesian–Kalman forecasting** models discussed in the paper.  
+
+### Files:
+- `MATLAB_Project/SOC_Equalization_BuckBoost.m` — Main MATLAB script  
+- `MATLAB_Project/bayesian_kalman_forecast.m` — Hybrid forecasting model  
+- `MATLAB_Project/soc_equalization.slx` — Simulink model for PI-controlled Buck–Boost converter  
+
+> These files were developed and tested using **MATLAB R2023a**.  
+> You can open them directly in MATLAB or Simulink to view simulations and results.
+
+---
+
 ## 📚 Citation
 If you use this research, please cite it as follows:
 
@@ -41,4 +54,5 @@ If you use this research, please cite it as follows:
   number={7},
   year={2025},
   doi={10.5281/zenodo.16452384}
+
 }
